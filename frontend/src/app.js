@@ -3,7 +3,7 @@ import { createUser } from './scripts/api/create.js';
 import { deleteUser } from './scripts/api/delete.js';
 import { updateUser, patchUser } from './scripts/api/update.js';
 
-const apiUrl = import.meta.env.VITE_API_URL ?? 'http://localhost:8000/api/users';
+const apiUrl = import.meta.env.VITE_API_URL ?? 'http://localhost:8001/api/users';
 
 // Referências do DOM
 const form = document.getElementById('create-user-form');
