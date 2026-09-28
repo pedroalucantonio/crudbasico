@@ -58,7 +58,7 @@ function withDataLock(callable $operation): mixed
         flock($lock, LOCK_UN);
         fclose($lock);
     }
-}   
+}
 
 function insertUser(array $user): array
 {
